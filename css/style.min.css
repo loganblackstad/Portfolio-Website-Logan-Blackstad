@@ -21,3 +21,38 @@
     max-width: 230px;
   }
 }
+
+.skill-icon {
+  width: 50px;
+  /* filter: grayscale(100%); */
+  /* filter: brightness(150%) contrast(200%); */
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  /* width: 120px; */
+  background-color: rgb(200, 200, 200);
+  color: rgb(59, 59, 59);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
