@@ -82,3 +82,22 @@
 
   text-indent: -53px;
 }
+
+.hover-icon {
+  color: #fff;
+}
+
+.boxx {
+  height: 32px;
+  border: solid 1px white;
+  border-radius: 7px;
+  top: -5px;
+}
+
+.skill-icon {
+  font-size: 40px;
+}
+
+.row-mt {
+  margin-top: 20px;
+}
