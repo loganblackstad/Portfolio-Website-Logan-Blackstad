@@ -79,7 +79,6 @@
 .hangingindent {
   padding-left: 40px;
   padding-right: 40px;
-
   text-indent: -53px;
 }
 
@@ -118,8 +117,8 @@ body {
 }
 
 .bg {
-  animation:slide 40s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #4db8ff 50%, #09f 50%);
+  animation:slide 50s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #a5dafd 50%, rgb(49, 172, 253) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -131,7 +130,7 @@ body {
 
 .bg2 {
   animation-direction:alternate-reverse;
-  animation-duration:50s;
+  animation-duration:60s;
 }
 
 .bg3 {
@@ -139,16 +138,17 @@ body {
 }
 
 .content {
-  background-color:rgba(255,255,255,.85);
+  background-color:rgba(255,255,255,.50);
   border-radius:.25em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position: absolute;;
-  text-align: center;
+  /* left:50%;
   top: 50%;
-  transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%); */
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+  position: relative;
+  text-align: center;
 }
 
 /* h1 {
