@@ -7519,7 +7519,7 @@ module.exports = Element.extend({
 				var cosRotation = Math.cos(angleRadians);
 				var sinRotation = Math.sin(angleRadians);
 
-				// TODO - improve this calculation
+				// TODO:580 - improve this calculation
 				var labelHeight = (sinRotation * largestTextWidth)
 					+ (tickFont.size * tallestLabelHeightInLines)
 					+ (lineSpace * (tallestLabelHeightInLines - 1))
@@ -9984,7 +9984,7 @@ var helpers = {
 					return false;
 				}
 			} else if (v0 !== v1) {
-				// NOTE: two different object instances will never be equal: {x:20} != {x:20}
+				// NOTE:290 two different object instances will never be equal: {x:20} != {x:20}
 				return false;
 			}
 		}
